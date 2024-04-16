@@ -121,27 +121,6 @@ object cajita{
 	
 	method color() = rojo
 	method material() =  cobre
-	method peso() = 400 + objetoDeCajita.peso()
-	
+	method peso() = 400 + objetoDeCajita.peso()	
 }
 
-
-
-object mostrador{
-	var objetoMostrador = remera
-	
-	method cambiarObjetoMostrador(nuevo){
-		objetoMostrador = nuevo
-	} 
-	method objetoMostrador() = objetoMostrador
-}
-
-
-object vidriera{
-	var objetoVidriera = pelota
-	
-	method cambiarObjetoVidriera(nuevo){
-		objetoVidriera = nuevo
-	} 
-	method objetoVidriera() = objetoVidriera
-}
